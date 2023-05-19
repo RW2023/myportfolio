@@ -71,6 +71,8 @@ body {
         max-width: 2000px;
         width: 100%;
         font-size: 2rem;
+        margin: auto;
+        position: sticky;
 
     }
 
