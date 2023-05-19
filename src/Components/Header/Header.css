@@ -46,6 +46,6 @@ body{
 }
 
 .navbar a:hover {
-    color: var(--highlight);
+    color: var(--tertiary);
 }
 
