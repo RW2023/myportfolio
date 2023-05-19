@@ -4,7 +4,7 @@ import './Projects.css';
 class Projects extends Component {
     render() {
         return (
-            <div className='project_container container' id='projects'>
+            <div className='project_container ' id='projects'>
                 <h2>Projects</h2>
                 <ul className="cards">
                     <li className="cards_item">
