@@ -1,20 +1,16 @@
 :root {
-    --background: #0D1B1E;
-    --text: #b6c2d9;
-    --accent: #828489;
-    --effect: #4d7ea8;
+    --background: #16161a;
+    --text: #fffffe;
+    --accent: #94a1b2;
+    --effect: #7f5af0;
     --mainFont: 'poppins', sans-serif;
     --pFont: 'ubuntu', sans-serif;
     --titleFont: 'poppins', sans-serif;
     --buttonFont: 'poppins', sans-serif;
-    --button: #008CBA;
-    /* new variable */
-    --buttonText: #FFFFFF;
-    /* new variable */
-    --buttonHover: #4CAF50;
-    /* new variable for button hover */
+    --button: #fffffe;
+    --buttonText: #7f5af0;
+    --buttonHover: #72757e;
 }
-
 /* CSS Reset */
 body {
     margin: 0;
@@ -96,7 +92,7 @@ button {
 }
 
 button:hover {
-    background-color: var(--buttonHover);
+    background-color: var(--);
     font-size: 1.25rem;
     transition: all 0.5s ease-in-out;
     /* hover effect */
