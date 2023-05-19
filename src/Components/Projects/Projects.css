@@ -81,6 +81,13 @@ img {
     width: 80%;
 }
 
+.cards {
+    list-style: none;
+    /* This removes the bullet points */
+    padding-left: 0;
+    /* This removes any default padding */
+}
+
 a {
     text-decoration: none;
     color: var(--text);
