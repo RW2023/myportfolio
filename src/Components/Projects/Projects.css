@@ -3,6 +3,9 @@
     --text: #b6c2d9;
     --accent: #828489;
     --effect: #4d7ea8;
+    --mainFont: poppins, sans-serif;
+    --pFont: ubuntu, sans-serif;
+    --titleFont: poppins, sans-serif;
 
 }
 
@@ -15,11 +18,20 @@ body {
   min-width: 100vh;
 }
 
+h1 h2 h3{
+    font-family: var(--titleFont);
+}
+
+p{
+    font-family: var(--pFont);
+}
+
 body{
     color: var(--text);
 }
 
-#projects{
+.project_container{
+    text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -27,11 +39,20 @@ body{
     background-color: var(--background);
 }
 
+a{
+    text-decoration: none;
+    color: var(--text);
+}
+
 @media only screen and (min-width: 700px) {
     #projects{
-        flex-direction: row;
+        flex-direction: column;
         flex-wrap: wrap;
-        justify-content: space-evenly
-        ;
+        justify-content: center;
     }
+
+.project_container >p{
+  font-family: var(--pFont);
+ 
+}
 }
