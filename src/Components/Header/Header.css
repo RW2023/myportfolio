@@ -10,9 +10,13 @@
     --highlight: #7f5af0;
     --secondary: #72757e;
     --tertiary: #2cb67d;
+    --mainFont: poppins, sans-serif;
+    --pFont: ubuntu, sans-serif;
+    --titleFont: poppins, sans-serif;
+    --buttonFont: poppins, sans-serif;
 }
 
-body{
+body {
     background-color: var(--background);
     font-family: poppins, sans-serif;
 }
@@ -21,16 +25,16 @@ body{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: var(--secondary);
-    color: var(--headline);
+    background-color: black;
     padding: 20px;
     font-size: 1.5rem;
     max-width: 375px;
     width: 80%;
     border: 1px solid var(--tertiary);
- border-radius: 5px;
+    border-radius: 5px;
 
 }
+
 
 .navbar ul {
     list-style-type: none;
@@ -39,7 +43,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
+
 }
 
 .navbar li {
@@ -50,8 +54,9 @@ body{
     color: var(--headline);
     text-decoration: none;
     padding: 5px;
-    color: var(--background);
+    color: var(--buttonText);
     font-size: 1rem;
+    font-family: var(--titleFont);
 }
 
 .navbar a:hover {
@@ -102,9 +107,9 @@ body{
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (width: 600px) {
     .navbar {
-    margin: auto;
-    max-width: 100%;
-    justify-content: center;
-    align-items: center
+        margin: auto;
+        max-width: 100%;
+        justify-content: center;
+        align-items: center
     }
 }

@@ -6,6 +6,7 @@
     --mainFont: poppins, sans-serif;
     --pFont: ubuntu, sans-serif;
     --titleFont: poppins, sans-serif;
+    --buttonFont: poppins, sans-serif;
 
 }
 
@@ -20,6 +21,7 @@ body {
 
 h1 h2 h3{
     font-family: var(--titleFont);
+    color: var(--text);
 }
 
 p{
@@ -39,10 +41,16 @@ body{
     background-color: var(--background);
 }
 
+.project_container >h1{
+    font-family: var(--titleFont);
+    color: var(--text);
+}
+
 a{
     text-decoration: none;
     color: var(--text);
 }
+
 
 button{
     background-color: var(--button);
@@ -54,16 +62,37 @@ button{
     font-size: 1rem;
     margin: 10px;
     cursor: pointer;
+    font-family: var(--buttonFont);
 }
 @media only screen and (min-width: 700px) {
     #projects{
         flex-direction: column;
         flex-wrap: wrap;
         justify-content: center;
+        font-size: 1.5rem;
+    }
+
+    #projects > h1{
+        font: weight 900px;
     }
 
 .project_container >p{
   font-family: var(--pFont);
  
 }
+.project_container > div{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid var(--accent);
+    border-radius: 5px;
+    background-color: var(--effect);
+    width: 25%;
+}
+
 }
