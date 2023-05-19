@@ -11,7 +11,7 @@ class Projects extends Component {
                         <div className="card">
                             {/* project 1 Start. Will likely end up splitting these into own component */}
                             <a href="https://rw2023qrcode.netlify.app/" target='_blank' rel="noreferrer">
-                                <div className="card_image  img-fluid"><img src='./src/Components/Images/qrcode.png' alt="QR Code Screenshot" /></div>
+                                <div className="card_image  img-fluid"><img src='https://github.com/RW2023/rewilsonReactPort/blob/main/src/Component/qrcode.png?raw=true' alt="QR Code Screenshot" /></div>
                             </a>
 
 
@@ -27,7 +27,7 @@ class Projects extends Component {
 
                             {/* Project 2 Start */}
                             <a href="https://femtipcalculator2023.netlify.app/" target='_blank' rel="noreferrer">
-                                <div className="card_image  img-fluid"><img src='./src/Components/Images/tipp.png' alt="Tipp Calculator Screenshot" /></div>
+                                <div className="card_image  img-fluid"><img src='https://github.com/RW2023/rewilsonReactPort/blob/main/src/Component/tipp.png?raw=true' alt="Tipp Calculator Screenshot" /></div>
                             </a>
                             <div className="card_content project">
                                 <h3 className="card_title">Project 2</h3>
@@ -52,7 +52,20 @@ class Projects extends Component {
                                 <p>We have over 90 members at the time of this writing . </p>
 
                             </div>
-                            {/* Project 3 End */}
+                            {/* Project 4 Start */}
+                            <a href="https://devopsdiscord.netlify.app/" target='_blank' rel="noreferrer">
+                                <div className="card_image  img-fluid"><img src='https://i.ibb.co/jJYfScD/Coming-Soon.png' alt="Coming Soon Landing Page" /></div>
+                            </a>
+                            <div className="card_content project">
+                                <h3 className="card_title">Project 4</h3>
+                                <a href="https://github.com/RW2023/ComingSoon" target='_blank' rel="noreferrer" >
+                                    <button className="btn card_btn" id='readMore'>Read More</button>
+                                </a>
+                                <p className="card_text">Coming Soon Landing Page</p>
+                                <p>This is a responsive landing page created for my Front End Freelance Bootcamp. </p>
+
+                            </div>
+                            {/* Project 4 End */}
                         </div>
                     </li>
                     {/* ... (all other cards) */}

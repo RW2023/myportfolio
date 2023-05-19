@@ -71,15 +71,16 @@ body {
     transition: all 0.5s ease-in-out;
 }
 
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 700px) {
+/* Large devices (laptops/desktops, 768px and up) */
+@media only screen and (min-width: 768px) {
     .navbar {
         max-width: 2000px;
         width: 100%;
         font-size: 2rem;
         margin: auto;
         position: sticky;
-
+max-width: 100%;
+    font-size: 1.5rem;
     }
 
     .navbar a {
@@ -87,19 +88,6 @@ body {
     }
 }
 
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-    .navbar {
-        max-width: 100%;
-        /* width: 100vw; */
-        font-size: 1.5rem;
-    }
-
-    .navbar a {
-        font-size: 1.5rem;
-        padding: 1rem;
-    }
-}
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 400px) {
@@ -107,18 +95,28 @@ body {
         max-width: 300px;
         width: 100%;
         font-size: 1rem;
+        margin-bottom: 100px;
     }
 
     .navbar a {
         font-size: 1rem;
     }
+
+    #projects {
+        max-width: 300px;
+        width: 100%;
+        font-size: 1rem;
+        margin-bottom: 100px;
+        margin-top: 72px;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (width: 600px) {
+@media only screen and (min-width: 500px) {
     .navbar {
         margin: auto;
         max-width: 100%;
+        max-width: 1200px;
         justify-content: center;
         align-items: center
     }
