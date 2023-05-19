@@ -40,7 +40,7 @@ class Projects extends Component {
                             </div>
                             {/* Project 2 End and Project 3 Start */}
                             <a href="https://devopsdiscord.netlify.app/" target='_blank' rel="noreferrer">
-                                <div className="card_image  img-fluid"><img src='https://github.com/RW2023/rewilsonReactPort/blob/main/src/Component/FEM.png?raw=true' alt="Tipp Calculator Screenshot" /></div>
+                                {/* <div className="card_image  img-fluid"><img src='https://github.com/RW2023/rewilsonReactPort/blob/main/src/Component/FEM.png?raw=true' alt="Tipp Calculator Screenshot" /></div> */}
                             </a>
                             <div className="card_content project">
                                 <h3 className="card_title">Project 3</h3>
