@@ -25,7 +25,7 @@ body{
     color: var(--headline);
     padding: 20px;
     font-size: 1.5rem;
-    max-width: 300px;
+    max-width: 375px;
     width: 80%;
 
 }
@@ -67,5 +67,32 @@ body{
 
     .navbar a {
         font-size: 2rem;
+    }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 400px) {
+    .navbar {
+        max-width: 300px;
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    .navbar a {
+        font-size: 1rem;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 500px) {
+    .navbar {
+        max-width: 600px;
+        width: 100%;
+        font-size: 1.5rem;
+    }
+
+    .navbar a {
+        font-size: 1.5rem;
+        padding: 1rem;
     }
 }
