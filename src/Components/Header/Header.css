@@ -14,6 +14,7 @@
 
 body{
     background-color: var(--background);
+    font-family: poppins, sans-serif;
 }
 
 .navbar {
@@ -22,6 +23,7 @@ body{
     background-color: var(--secondary);
     color: var(--headline);
     padding: 20px;
+    
 }
 
 .navbar ul {
