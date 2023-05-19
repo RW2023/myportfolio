@@ -98,16 +98,11 @@ body{
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (max-width: 600px) {
+@media only screen and (width: 600px) {
     .navbar {
-        max-width: 600px;
-        width: 100%;
-        font-size: 1.5rem;
-    }
-
-    .navbar a {
-        font-size: 1.5rem;
-        padding: 1rem;
+    margin: auto;
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
     }
 }
-
