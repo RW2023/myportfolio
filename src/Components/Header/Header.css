@@ -49,6 +49,7 @@ body {
         /* Adjust the z-index value as needed */
 
 
+
 }
 
 
@@ -111,13 +112,10 @@ max-width: 100%;
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 400px) {
-  body{
-    max-width: 375px;
-    width: 100%;
-  }
+ 
   
     .navbar {
-        max-width: 300px;
+       
         width: 100%;
         font-size: 1rem;
         /* margin-bottom: 100px; */
