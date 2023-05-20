@@ -93,6 +93,8 @@ navbar.img {
 
  .logo>img {
     border-radius: 50%;
+    border: 1px solid var(--tertiary);
+    box-shadow: var(--overlay) 0px 0px 0px 1px;
  }
 
 /* Large devices (laptops/desktops, 768px and up) */
