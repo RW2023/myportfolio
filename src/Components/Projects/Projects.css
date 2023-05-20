@@ -11,6 +11,7 @@
     --buttonText: #7f5af0;
     --buttonHover: #72757e;
 }
+
 /* CSS Reset */
 body {
     margin: 0;
@@ -44,7 +45,7 @@ body {
     background-color: var(--background);
 }
 
-#projects{
+#projects {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -83,10 +84,18 @@ img {
 
 .cards {
     list-style: none;
-    /* This removes the bullet points */
     padding-left: 0;
-    /* This removes any default padding */
+    /* background-color: var(--secondary); */
 }
+
+h3.card_title {
+    font-family: var(--titleFont);
+    background-color: var(--effect);
+    border: solid 1px var(--accent);
+    border-radius: 1rem;
+}
+
+
 
 a {
     text-decoration: none;
@@ -124,11 +133,11 @@ button:hover {
 
 .project_container>p {
     font-family: var(--pFont);
-    
+
 }
 
 @media screen and (min-width: 400px) {
-    #projects{
+    #projects {
         margin-top: 72px;
     }
 }
@@ -150,18 +159,35 @@ button:hover {
         width: 80%;
         height: auto;
         border-radius: 2rem;
-        
+
     }
 }
 
 @media only screen and (min-width: 500px) {
-#projects {
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    font-size: 1.5em;
-    max-width: 1200px;
+    #projects {
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        font-size: 1.5em;
+        max-width: 1200px;
+        margin: auto;
+        margin-top: 100px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+h3.card_title{
+padding: 10px;
+    margin: 0 164px;
     margin: auto;
-    margin-top: 100px;
+    font-size: .5rem;
+    max-width: 600px;
+    width: 80%;
+}
+
+p.card_title{
+    font-size: 1.5rem;
 }
 }
+
