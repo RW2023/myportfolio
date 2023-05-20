@@ -21,6 +21,16 @@ body {
     font-family: poppins, sans-serif;
 }
 
+#selfie{
+    width: 100%;
+    max-width: 300px;
+    border-radius: 1rem;
+    border: 1px solid var(--tertiary);
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+
 .navbar {
     display: flex;
     flex-wrap: wrap;
@@ -71,6 +81,16 @@ body {
     transition: all 0.5s ease-in-out;
 }
 
+navbar.img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 1rem;
+    border: 1px solid var(--tertiary);
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+
 /* Large devices (laptops/desktops, 768px and up) */
 @media only screen and (min-width: 768px) {
     .navbar {
@@ -95,7 +115,14 @@ max-width: 100%;
         max-width: 300px;
         width: 100%;
         font-size: 1rem;
-        margin-bottom: 100px;
+        /* margin-bottom: 100px; */
+    }
+    .logo > img {
+        max-width: 100px;
+        width: 100%;
+        font-size: 1rem;
+        border-radius: .25;
+        /* margin-bottom: 100px; */
     }
 
     .navbar a {
@@ -107,7 +134,7 @@ max-width: 100%;
         width: 100%;
         font-size: 1rem;
         margin-bottom: 100px;
-        margin-top: 72px;
+        margin-top: 321px;
     }
 }
 
@@ -116,8 +143,21 @@ max-width: 100%;
     .navbar {
         margin: auto;
         max-width: 100%;
-        max-width: 1200px;
+        max-width: 600px;
         justify-content: center;
-        align-items: center
+        align-items: center;
+        height: min-content;
+    }
+
+    .navbar img{
+        max-width: 100px;
+        width: 100%;
+        margin-bottom: 1px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .logo{
+        margin-top: 2px;
     }
 }
