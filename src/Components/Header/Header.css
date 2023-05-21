@@ -23,7 +23,7 @@ body {
 
 #selfie{
     width: 100%;
-    max-width: 300px;
+    max-width: 375px;
     border-radius: 1rem;
     border: 1px solid var(--tertiary);
     margin: 10px;
@@ -84,7 +84,7 @@ body {
 
 navbar.img {
     width: 100%;
-    max-width: 300px;
+    max-width: 375px;
     border-radius: 1rem;
     border: 1px solid var(--tertiary);
     margin: 10px;
@@ -144,7 +144,7 @@ max-width: 100%;
     }
 
     #projects {
-        max-width: 300px;
+        max-width: 375px;
         width: 100%;
         font-size: 1rem;
         margin-bottom: 100px;

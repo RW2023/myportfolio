@@ -55,7 +55,7 @@ body {
     border: 1px solid var(--accent);
     border-radius: 5px;
     width: 80%;
-    max-width: 300px;
+    max-width: 375px;
     margin-top: 200px;
 }
 
@@ -68,7 +68,7 @@ body {
 
 @media screen and (min-width: 540px) {
     #projects {
-        margin-top: 300px;
+        margin-top: 375px;
     }
   
 }
