@@ -98,6 +98,11 @@ navbar.img {
     box-shadow: var(--overlay) 0px 0px 0px 1px;
  }
 
+ .about.fa-brands {
+        color: var(--secondary);
+        font-size: 13.5rem;
+        transition: all 0.3s ease-in-out;
+ }
 /* Large devices (laptops/desktops, 768px and up) */
 @media only screen and (min-width: 768px) {
     .navbar {
