@@ -1,0 +1,110 @@
+:root {
+    --background: #16161a;
+    --text: #fffffe;
+    --accent: #94a1b2;
+    --effect: #7f5af0;
+    --mainFont: 'poppins', sans-serif;
+    --pFont: 'ubuntu', sans-serif;
+    --titleFont: 'poppins', sans-serif;
+    --buttonFont: 'poppins', sans-serif;
+    --button: #fffffe;
+    --buttonText: #7f5af0;
+    --buttonHover: #72757e;
+    --flag: #ff0000;
+}
+/* End Color Pallette */
+
+/* CSS Reset */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    min-height: 100%;
+    min-width: 100vh;
+}
+
+/* End of CSS Reset */
+
+#about {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--background);
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid var(--accent);
+    border-radius: 5px;
+    width: 80%;
+    max-width: 300px;
+    margin-top: 200px;
+    text-align: center!important;
+}
+
+p {
+    padding: 20px;
+}
+
+
+#about h3:first-of-type {
+    color: var(--effect)!important;
+}
+
+
+.fa-brands:first-of-type {
+    color: var(--flag);
+    font-size: 3rem;
+}
+
+.fa-hand{
+    color: var(--effect);
+    font-size: 3rem;
+}
+
+.fa-linkedin{
+    color: var(--accent)!important;
+    font-size: 3rem;
+    margin: 20px;
+}
+
+.fa-instagram{
+    color: var(--accent)!important;
+    font-size: 3rem;
+    margin: 20px;
+}
+
+.fa-github{
+    color: var(--accent)!important;
+    font-size: 3rem;
+    margin: 20px;
+}
+
+.fa-twitter{
+    color: var(--accent)!important;
+    font-size: 3rem;
+    margin: 20px;
+}
+
+.social{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 6px;
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    #about {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        max-width: 1200px;
+        margin: auto;
+        margin-top: 20px;
+
+    }
+    
+}

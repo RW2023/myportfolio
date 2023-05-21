@@ -5,20 +5,26 @@ class About extends React.Component {
     render() {
         return (
             <div id="about">
-                <h1>Hi I am RE. Wilson</h1>
+                <h1>Hi <i class="fa-solid fa-hand"></i> I am Ryan Wilson</h1>
                 <h2><span className="tagline">React Web Developer</span></h2>
-                <h2>About Me</h2>
+                <h3>About Me</h3>
                 <p>
-                    Hello! I'm Ryan Wilson, a Junior React Web Developer based In Canada <i class="fa-brands fa-canadian-maple-leaf"></i>.
+                    Hello! I'm Ryan Wilson, a Junior React Web Developer based In Canada <i class="fa-brands fa-canadian-maple-leaf"></i>
                 </p>
-                <p>I enjoy creating things that live on the internet, whether that be websites, applications, or anything in between. My goal is to always build products that provide pixel-perfect, performant experiences.
-                </p>
-                <p>
-                    With a Bachelor's degree in Computer Science and numerous [add specific qualifications, certifications or project successes here], I have a robust understanding of the full web development life cycle. I've consistently demonstrated a knack for identifying and solving problems, maintaining a high level of performance under pressure.
+                <p>I love machines. Things that do stuff. I particularly enjoy creating things that live on the internet, whether that be websites, applications, or anything in between. My goal is to eventually master Full Stack Web Development.
                 </p>
                 <p>
-                    I love the endless potential of the web and am constantly exploring the latest industry trends to stay updated and ensure I deliver innovative and user-friendly solutions. As a lifelong learner, I'm continually expanding my skill set and eager to take on new challenges.
+                    I hold a Bachelor's degree in Sociology from the <a href="https://www.uwo.ca/" target='_blank' rel="noreferrer">University of Wester Ontario</a> People and how we interact with technology has always been an interest of mine. Now I aim to help build those experiences.
                 </p>
+                <div id='links'>
+                    <h3>Connect With Me</h3>
+                    <ul className="social">
+                        <li><a href="https://www.linkedin.com/in/ryan-wilson-2023/" target='_blank' rel="noreferrer"><i class="fa-brands fa-linkedin"></i></a>LinkedIn</li>
+                        <li><a href="instagram.com/ryanwilson2023" target='_blank' rel="noreferrer"><i class="fa-brands fa-instagram"></i></a>Instagram</li>
+                        <li><a href="github.com/RW2023" target='_blank' rel="noreferrer"><i class="fa-brands fa-github"></i></a>GitHub</li>
+                        <li><a href="https://twitter.com/RyanWi2023" target='_blank' rel="noreferrer"><i class="fa-brands fa-twitter"></i></a>Twitter</li>
+                    </ul>
+                </div>
             </div>
         )
     }
