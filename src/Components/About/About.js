@@ -14,7 +14,7 @@ class About extends React.Component {
                 <p>I love machines. Things that do stuff. I particularly enjoy creating things that live on the internet, whether that be websites, applications, or anything in between. My goal is to eventually master Full Stack Web Development.
                 </p>
                 <p>
-                    I hold a Bachelor's degree in Sociology from the <a href="https://www.uwo.ca/" target='_blank' rel="noreferrer">University of Wester Ontario</a> where I studied people in depth and how we interact with  has always been an interest of mine. Now I aim to help build those experiences.
+                    I hold a Bachelor's degree in Sociology from the <a href="https://www.uwo.ca/" target='_blank' rel="noreferrer">University of Wester Ontario</a> where I studied people in depth and how we interact with Technology has always been an interest of mine. Now I aim to help build those experiences.
                 </p>
                 <div id='links'>
                     <h3>Connect With Me</h3>
