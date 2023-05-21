@@ -1,5 +1,24 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/837a487b-fb47-4ef0-b78b-609e2497d2bb/deploy-status)](https://app.netlify.com/sites/gilded-concha-4fe40d/deploys)
 
+# My Web Developer Portfolio
+
+This is a portfolio website that showcases my skills and projects as a junior front end web developer. It is built using React and features responsive mobile first design and proper semantic HTML code.
+
+## Features
+
+- A landing page that introduces myself and my contact information
+- A navigation bar that allows easy access to different sections of the website
+- A skills section that displays my technical skills and tools
+- A projects section that showcases my completed and ongoing projects with links to live demos and source code
+- A testimonials section that displays feedback from clients and mentors
+- A footer that contains social media links and a back to top button
+
+## Technologies
+
+- React: A JavaScript library for building user interfaces
+- Font Awesome: A library that provides icons and social logos
+- Google Fonts: A library that provides a variety of fonts
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
