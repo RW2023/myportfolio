@@ -1,3 +1,15 @@
+/* CSS Reset */
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    min-height: 100%;
+    min-width: 100vh;
+}
+
+/* End of CSS Reset */
+
 :root {
     --overlay: rgba(184, 193, 236, 0.5);
     --background: #16161a;
@@ -23,7 +35,6 @@ body {
 
 #selfie{
     width: 100%;
-    max-width: 375px;
     border-radius: 1rem;
     border: 1px solid var(--tertiary);
     margin: 10px;
