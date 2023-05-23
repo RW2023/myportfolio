@@ -10,3 +10,11 @@ body {
 
 /* End of CSS Reset */
 
+#footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+}
