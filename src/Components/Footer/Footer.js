@@ -5,9 +5,11 @@ class Footer extends Component {
     render() {
         return (
             <div id='footer'>
-                <p>© Ryan Wilson 2021</p>
+                <p>© Ryan Wilson 2023</p>
                 <Links />
             </div>
         );
     }
 }
+
+export default Footer;
