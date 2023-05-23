@@ -4,7 +4,6 @@ class Links extends Component {
     render() {
         return (
             <div id='links'>
-                <h3>Link Up</h3>
                 <ul className="social">
                     <li><a href="https://www.linkedin.com/in/ryan-e-wilson/" target='_blank' rel="noreferrer"><i className="fab fa-linkedin"></i></a>LinkedIn</li>
                     <li><a href="https://instagram.com/ryanwilsonimages" target='_blank' rel="noreferrer"><i className="fab fa-instagram"></i></a>Instagram</li>
