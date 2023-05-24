@@ -33,12 +33,12 @@ body {
     justify-content: center;
     background-color: var(--background);
     padding: 10px;
-    margin: 10px;
+    /* margin: 10px; */
     border: 1px solid var(--accent);
     border-radius: 5px;
     width: 80%;
     max-width: 375px;
-    margin-top: 200px;
+    margin-top: 375px;
     text-align: center!important;
 }
 
@@ -91,7 +91,7 @@ p {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin: 6px;
+    /* margin: 6px; */
 }
 
 a{
@@ -113,6 +113,18 @@ a:hover{
         max-width: 1200px;
         margin: auto;
         margin-top: 20px;
+
+    }
+    
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    #about {
+        width: 80%;
+        max-width: 1200px;
+        margin: auto;
+        
 
     }
     
