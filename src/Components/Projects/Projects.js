@@ -66,9 +66,23 @@ class Projects extends Component {
 
                             </div>
                             {/* Project 4 End */}
+                            {/* Project 5 Start */}
+                            <a href="https://rwpokegame.netlify.app/" target='_blank' rel="noreferrer">
+                                <div className="card_image  img-fluid"><img src='https://i.ibb.co/1GxkxWr/Poke-Dex-Game.png' alt="Coming Soon Landing Page" /></div>
+                            </a>
+                            <div className="card_content project">
+                                <h3 className="card_title">Project 5</h3>
+                                <a href="https://github.com/RW2023/pokedex" target='_blank' rel="noreferrer" >
+                                    <button className="btn card_btn" id='readMore'>Read More</button>
+                                </a>
+                                <p className="card_text">Pokedex Game</p>
+                                <p>This is a Pokedex Game built in react. It utilizes props and state management to render Poke Cards. The Data is coming from an external API.</p>
+
+                            </div>
                         </div>
                     </li>
                     {/* ... (all other cards) */}
+                    
                 </ul>
             </div>
         );
