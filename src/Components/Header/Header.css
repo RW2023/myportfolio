@@ -33,7 +33,7 @@ body {
     font-family: poppins, sans-serif;
 }
 
-#selfie{
+#selfie {
     width: 100%;
     border-radius: 1rem;
     border: 1px solid var(--tertiary);
@@ -54,10 +54,10 @@ body {
     border: 1px solid var(--tertiary);
     border-radius: 5px;
     position: fixed;
-        top: 0;
-        width: 100%;
-        z-index: 9999;
-        /* Adjust the z-index value as needed */
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+    /* Adjust the z-index value as needed */
 
 
 
@@ -103,17 +103,19 @@ navbar.img {
     justify-content: center;
 }
 
- .logo>img {
+.logo>img {
     border-radius: 50%;
     border: 1px solid var(--tertiary);
     box-shadow: var(--overlay) 0px 0px 0px 1px;
- }
+    width: 40%;
+}
 
- .about.fa-brands {
-        color: var(--secondary);
-        font-size: 13.5rem;
-        transition: all 0.3s ease-in-out;
- }
+.about.fa-brands {
+    color: var(--secondary);
+    font-size: 13.5rem;
+    transition: all 0.3s ease-in-out;
+}
+
 /* Large devices (laptops/desktops, 768px and up) */
 @media only screen and (min-width: 768px) {
     .navbar {
@@ -122,8 +124,8 @@ navbar.img {
         font-size: 2rem;
         margin: auto;
         position: sticky;
-max-width: 100%;
-    font-size: 1.5rem;
+        max-width: 100%;
+        font-size: 1.5rem;
     }
 
     .navbar a {
@@ -132,49 +134,18 @@ max-width: 100%;
 }
 
 
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 400px) {
- 
-  
-    .navbar {
-       
-        width: 100%;
-        font-size: 1rem;
-        /* margin-bottom: 100px; */
-    }
-    .logo > img {
-        max-width: 100px;
-        width: 100%;
-        font-size: 1rem;
-        border-radius: 100%;
-        /* margin-bottom: 100px; */
-    }
-
-    .navbar a {
-        font-size: 1rem;
-    }
-
-    #projects {
-        max-width: 375px;
-        width: 100%;
-        font-size: 1rem;
-        margin-bottom: 100px;
-        margin-top: 321px;
-    }
-}
-
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 600px) {
     .navbar {
         margin: auto;
-        max-width: 100%;
-        max-width: 600px;
+        width: 100%;
+        max-width: 1200px;
         justify-content: center;
         align-items: center;
         height: min-content;
     }
 
-    .navbar img{
+    .navbar img {
         max-width: 100px;
         width: 100%;
         margin-bottom: 1px;
@@ -182,7 +153,7 @@ max-width: 100%;
         justify-content: center;
     }
 
-    .logo{
+    .logo {
         margin-top: 2px;
     }
 }
