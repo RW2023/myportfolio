@@ -10,3 +10,19 @@ body {
 
 /* End of CSS Reset */
 
+#links {
+    margin-bottom: 1rem;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 500px) {
+    #links {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 80%;
+        max-width: 1200px;
+        margin: auto;
+
+    }
+}

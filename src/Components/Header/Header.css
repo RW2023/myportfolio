@@ -135,7 +135,7 @@ navbar.img {
 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 500px) {
     .navbar {
         margin: auto;
         width: 100%;
@@ -146,7 +146,7 @@ navbar.img {
     }
 
     .navbar img {
-        max-width: 100px;
+        max-width: 50px;
         width: 100%;
         margin-bottom: 1px;
         display: flex;
