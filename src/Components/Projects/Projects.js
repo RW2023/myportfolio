@@ -76,7 +76,7 @@ class Projects extends Component {
                                     <button className="btn card_btn" id='readMore'>Read More</button>
                                 </a>
                                 <p className="card_text">Pokedex Game</p>
-                                <p>This is a Pokedex Game built in react. It utilizes props and state management to render Poke Cards. The Data is coming from an external API.</p>
+                                <p>This is a Pokedex Game built in react. It utilizes props and state management to render Poke Cards. The Data is coming from an external API</p>
 
                             </div>
                         </div>
