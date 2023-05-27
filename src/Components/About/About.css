@@ -36,10 +36,9 @@ body {
     /* margin: 10px; */
     border: 1px solid var(--accent);
     border-radius: 5px;
-    width: 80%;
-    max-width: 375px;
-    margin-top: 1rem;
-    text-align: center!important;
+    width: 100%;
+    margin-top: 23rem;
+    text-align: center;
 }
 
 p {
@@ -109,8 +108,7 @@ a:hover{
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 80%;
-        max-width: 1200px;
+        width: 100%;
         margin: auto;
         margin-top: 1rem;
 
@@ -121,10 +119,9 @@ a:hover{
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 500px) {
     #about {
-        width: 80%;
-        max-width: 1200px;
+        width: 100%;
         margin: auto;
-        margin-top: 12rem;
+        margin-top: 11rem;
         
 
     }
@@ -138,4 +135,13 @@ a:hover{
 
     }
     
+}
+
+@media only screen and (max-width: 370px) {
+    #about {
+        margin-top: 20rem;
+
+
+    }
+
 }
