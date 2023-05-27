@@ -111,13 +111,14 @@ a:hover{
         width: 100%;
         margin: auto;
         margin-top: 1rem;
+        padding: 2rem;
 
     }
     
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 500px) {
+@media only screen and (max-width: 400px) {
     #about {
         width: 100%;
         margin: auto;
