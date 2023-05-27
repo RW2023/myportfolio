@@ -1,4 +1,4 @@
-import react, { Component } from 'react';
+import  { Component } from 'react';
 import './Skills.css';
 class Skills extends Component {
     render() {
