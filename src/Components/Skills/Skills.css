@@ -9,3 +9,78 @@ body {
 }
 
 /* End of CSS Reset */
+
+.Skills {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--background);
+    padding: 10px;
+    /* margin: 10px; */
+    border: 1px solid var(--accent);
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.Skills p {
+    font-size: 1rem;
+    display: inline-block;
+    color: var(--text);
+}
+
+.Skills_icon {
+    color: var(--effect);
+    font-size: 3rem;
+    margin: 10px 20px;
+    padding: 1rem;
+}
+
+.fa-brands:first-of-type {
+    color: #F78C00;
+    font-size: 4rem;
+}
+
+.fa-brands:nth-of-type(2) {
+    color: #0091D5;
+    font-size: 4rem;
+}
+
+.fa-brands:nth-of-type(3) {
+    color: #EFD81D;
+    font-size: 4rem;
+}
+
+.fa-brands:nth-of-type(4) {
+    color: #5ED3F3;
+    font-size: 4rem;
+}
+
+.fa-brands:nth-of-type(5) {
+    color: #509941;
+    font-size: 4rem;
+}
+
+
+
+.fa-brands,
+.fab {
+    font-weight: 400;
+    padding: 3rem;
+    font-size: 4rem;
+}
+
+
+@media screen and (max-width: 768px) {
+    .Skills {
+        margin-top: 1rem;
+    }
+
+    .Skills_icon {
+        font-size: 1rem;
+    }
+}
