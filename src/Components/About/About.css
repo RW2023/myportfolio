@@ -37,7 +37,7 @@ body {
     border: 1px solid var(--accent);
     border-radius: 5px;
     width: 100%;
-    margin-top: 2rem;
+    margin-top: 2em;
     text-align: center;
 }
 
@@ -56,41 +56,41 @@ p {
 
 .fa-canadian-maple-leaf{
     color: var(--flag)!important;
-    font-size: 3rem;
+    font-size: 3em;
     margin: 20px;
 }
 
 /* .fa-brands:first-of-type {
     color: var(--flag);
-    font-size: 3rem;
+    font-size: 3em;
 } */
 
 .fa-hand{
     color: var(--effect);
-    font-size: 3rem;
+    font-size: 3em;
 }
 
 .fa-linkedin{
     color: var(--accent)!important;
-    font-size: 3rem;
+    font-size: 3em;
     margin: 20px;
 }
 
 .fa-instagram{
     color: var(--accent)!important;
-    font-size: 3rem;
+    font-size: 3em;
     margin: 20px;
 }
 
 .fa-github{
     color: var(--accent)!important;
-    font-size: 3rem;
+    font-size: 3em;
     margin: 20px;
 }
 
 .fa-twitter{
     color: var(--accent)!important;
-    font-size: 3rem;
+    font-size: 3em;
     margin: 20px;
 }
 
@@ -119,8 +119,8 @@ a:hover{
         align-items: center;
         width: 100%;
         margin: auto;
-        margin-top: 1rem;
-        padding: 2rem;
+        margin-top: 1em;
+        padding: 2em;
 
     }
     
