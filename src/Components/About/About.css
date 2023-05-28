@@ -134,7 +134,7 @@ a:hover{
 
 @media (min-width: 375px) and (max-width: 600px) {
     #about{
-        margin-top: 23em;
+        margin-top: 26em;
     }
 }
 
@@ -144,6 +144,6 @@ a:hover{
 /* Small devices 320px */
 @media only screen and (max-width: 320px) {
     #about {
-  margin-top: 24em;
+  margin-top: 20em;
 }
 }
