@@ -24,6 +24,7 @@ body {
     border-radius: 5px;
     width: 100%;
     margin-top: 1rem;
+    margin: auto;
     text-align: center;
 }
 
@@ -62,6 +63,16 @@ body {
 
 .fa-brands:nth-of-type(5) {
     color: #509941;
+    font-size: 4rem;
+}
+
+.fa-brands:nth-of-type(6) {
+    color: #E84D31;
+    font-size: 4rem;
+}
+
+.fa-brands:nth-of-type(7) {
+    color: whitesmoke;
     font-size: 4rem;
 }
 
