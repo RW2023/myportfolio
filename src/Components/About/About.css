@@ -131,24 +131,19 @@ a:hover{
 
 
 
-@media only screen and (max-width: 500px) {
-    #about {
-      margin-top: 23rem;
 
+@media (min-width: 375px) and (max-width: 600px) {
+    #about{
+        margin-top: 23em;
     }
-    
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (max-width: 600px) {
-    #about {
-  margin-top: 11em;
-}
-}
 
-/* Small devices 375px */
-@media only screen and (max-width: 375px) {
+
+
+/* Small devices 320px */
+@media only screen and (max-width: 320px) {
     #about {
-  margin-top: 23em;
+  margin-top: 24em;
 }
 }
