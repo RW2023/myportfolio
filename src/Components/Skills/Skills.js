@@ -12,6 +12,8 @@ class Skills extends Component {
                         <i class="fa-brands fa-square-js"></i><p>JavaScript</p>
                         <i class="fa-brands fa-react"></i><p>React</p>
                         <i class="fa-brands fa-node-js"></i><p>NodeJS</p>
+                        <i class="fa-brands fa-git-alt"></i><p>Git</p>
+                        <i class="fa-brands fa-figma"></i><p>Figma</p>
                     </ul>
                 </div>
             </div>
