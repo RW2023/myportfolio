@@ -37,9 +37,13 @@ body {
     border: 1px solid var(--accent);
     border-radius: 5px;
     width: 100%;
-    margin-top: 23rem;
+    margin-top: 2rem;
     text-align: center;
 }
+
+   #about h3:first-of-type {
+       font-size: 2em;
+   }
 
 p {
     padding: 20px;
@@ -50,11 +54,16 @@ p {
     color: var(--effect)!important;
 }
 
+.fa-canadian-maple-leaf{
+    color: var(--flag)!important;
+    font-size: 3rem;
+    margin: 20px;
+}
 
-.fa-brands:first-of-type {
+/* .fa-brands:first-of-type {
     color: var(--flag);
     font-size: 3rem;
-}
+} */
 
 .fa-hand{
     color: var(--effect);
@@ -115,34 +124,31 @@ a:hover{
 
     }
     
+        #about h3:first-of-type {
+            font-size: 1.5em;
+        }
+}
+
+
+
+@media only screen and (max-width: 500px) {
+    #about {
+      margin-top: 23rem;
+
+    }
+    
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 600px) {
     #about {
-        width: 100%;
-        margin: auto;
-        margin-top: 11rem;
-        
-
-    }
-    
+  margin-top: 11em;
+}
 }
 
+/* Small devices 375px */
 @media only screen and (max-width: 375px) {
     #about {
-        margin-top: 13rem;
-        
-
-    }
-    
+  margin-top: 23em;
 }
-
-@media only screen and (max-width: 370px) {
-    #about {
-        margin-top: 20rem;
-
-
-    }
-
 }
