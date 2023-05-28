@@ -5,7 +5,7 @@ class Skills extends Component {
         return (
             <div className='Skills'>
                 <h2>Skills</h2>
-                <div className='Skills_icon'>
+                <div className='Skills_icon' id='skills'>
                     <ul>
                         <i class="fa-brands fa-html5"></i><p>HTML</p>
                         <i class="fa-brands fa-css3"></i><p>CSS</p>
