@@ -123,15 +123,14 @@ navbar.img {
     .navbar {
         max-width: 100%;
         width: 100%;
-        font-size: 2em;
         margin: auto;
         position: sticky;
         max-width: 100%;
-        font-size: 1.5em;
+        font-size: 1em;
     }
 
-    .navbar a {
-        font-size: 2em;
+    .navbar a{
+        font-size: 1.5em;
     }
 }
 
