@@ -10,7 +10,7 @@ class About extends React.Component {
                 <h2><span className="tagline">Junior Front End Web Developer</span></h2>
                 <h3>About Me</h3>
                 <p>
-                    Hello! I'm Ryan Wilson, a Junior React Web Developer based In Canada <i class="fa-brands fa-canadian-maple-leaf"></i>
+                    I'm, a Junior React Web Developer based In Canada <i class="fa-brands fa-canadian-maple-leaf"></i>
                 </p>
                 <p>I love machines. Things that do stuff. I particularly enjoy creating things that live on the internet, whether that be websites, applications, or anything in between. My goal is to eventually master Full Stack Web Development.
                 </p>
