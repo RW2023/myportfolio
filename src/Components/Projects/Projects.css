@@ -121,6 +121,8 @@ h3.card_title {
     width: 23em;
     margin: auto;
     padding: 0.5em;
+    margin-bottom: 0.5em;
+    margin-top: 1em;
 }
 
 
