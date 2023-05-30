@@ -20,8 +20,8 @@ class Projects extends Component {
                                 <a href="https://github.com/RW2023/qrCode" target='_blank' rel="noreferrer">
                                     <button className="btn card_btn" id='readMore'>Read More</button>
                                 </a>
-                                <p className="card_text">QrCode Challenge from Front End Mentor</p>
-                                <p>This was my very first challenge. I learned a lot of the fundamentals of CSS building it.</p>
+                                <h4 className="project_name">QrCode Challenge from Front End Mentor</h4>
+                                <p className="card_text">This was my very first challenge. I learned a lot of the fundamentals of CSS building it.</p>
 
                             </div>
 
@@ -34,7 +34,7 @@ class Projects extends Component {
                                 <a href="https://github.com/RW2023/tip-calculator-app" target='_blank' rel="noreferrer">
                                     <button className="btn card_btn" id='readMore'>Read More</button>
                                 </a>
-                                <p className="card_text">Tip Calculator Challenge from Front End Mentor</p>
+                                <h4 className="project_name">Tip Calculator Challenge from Front End Mentor</h4>
                                 <p>This was my very first JavaScript challenge. I learned a lot about conditionals and the basics of working with functions.</p>
 
                             </div>
@@ -47,7 +47,7 @@ class Projects extends Component {
                                 <a href="https://github.com/RW2023/Dev-Ops-Community" target='_blank' rel="noreferrer" >
                                     <button className="btn card_btn" id='readMore'>Read More</button>
                                 </a>
-                                <p className="card_text">Front End Collab Discord Community</p>
+                                <h4 className="project_name">Front End Collab Discord Community</h4>
                                 <p>This is the Landing page to my Discord Server. Front End Collab is a community of beginner front end developers, like myself.</p>
                                 <p>We have over 90 members at the time of this writing . </p>
 
@@ -61,7 +61,7 @@ class Projects extends Component {
                                 <a href="https://github.com/RW2023/ComingSoon" target='_blank' rel="noreferrer" >
                                     <button className="btn card_btn" id='readMore'>Read More</button>
                                 </a>
-                                <p className="card_text">Coming Soon Landing Page</p>
+                                <h4 className="project_name">Coming Soon Landing Page</h4>
                                 <p>This is a responsive landing page created for my Front End Freelance Bootcamp. </p>
 
                             </div>
@@ -75,7 +75,7 @@ class Projects extends Component {
                                 <a href="https://github.com/RW2023/pokedex" target='_blank' rel="noreferrer" >
                                     <button className="btn card_btn" id='readMore'>Read More</button>
                                 </a>
-                                <p className="card_text">Pokedex Game</p>
+                                <h4 className="project_name">Pokedex Game</h4>
                                 <p>This is a Pokedex Game built in react. It utilizes props and state management to render Poke Cards. The Data is coming from an external API</p>
 
                             </div>

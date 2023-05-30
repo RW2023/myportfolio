@@ -55,7 +55,7 @@ body {
     padding: 10px;
     /* margin: 10px; */
     border: 1px solid var(--accent);
-    border-radius: 5px;
+    border-radius: 0.5em;
     width: 100%;
     /* max-width: 375px; */
     margin-top: 1em;
@@ -91,10 +91,20 @@ img {
     align-items: center;
     justify-content: center;
     border: 1px solid var(--effect);
-    border-radius: 5px;
+    border-radius: 0.5em;
     /* margin: 10px; */
     padding: 10px;
     width: 80%;
+}
+
+.project_name{
+    color: var(--headline);
+    background-color: var(--effect);
+    border: solid 1px var(--accent);
+    border-radius: 0.25em;
+    width: 26em;
+    margin: auto;
+    padding: 0.5em;
 }
 
 .cards {
@@ -107,7 +117,12 @@ h3.card_title {
     font-family: var(--titleFont);
     background-color: var(--effect);
     border: solid 1px var(--accent);
-    border-radius: 1em;
+    border-radius: 0.25em;
+    width: 23em;
+    margin: auto;
+    padding: 0.5em;
+    margin-bottom: 0.5em;
+    margin-top: 1em;
 }
 
 
@@ -164,7 +179,7 @@ button:hover {
         max-width: 100%;
         width: 50%;
         height: auto;
-        border-radius: 2em;
+        border-radius: 1em;
 
     }
 

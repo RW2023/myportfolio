@@ -6,7 +6,7 @@ class Footer extends Component {
         return (
             <div id='footer'>
                 <p>© Ryan Wilson 2023</p>
-                <Links />
+                <div id='links'>< Links /></div>
             </div>
         );
     }
