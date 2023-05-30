@@ -97,6 +97,16 @@ img {
     width: 80%;
 }
 
+.project_name{
+    color: var(--headline);
+    background-color: var(--effect);
+    border: solid 1px var(--accent);
+    border-radius: 0.25em;
+    width: 26em;
+    margin: auto;
+    padding: 0.5em;
+}
+
 .cards {
     list-style: none;
     padding-left: 0;
@@ -107,7 +117,10 @@ h3.card_title {
     font-family: var(--titleFont);
     background-color: var(--effect);
     border: solid 1px var(--accent);
-    border-radius: 1em;
+    border-radius: 0.25em;
+    width: 23em;
+    margin: auto;
+    padding: 0.5em;
 }
 
 
