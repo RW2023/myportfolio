@@ -141,6 +141,11 @@ a:hover{
     #about{
         margin-top: 26em;
     }
+
+    #about p{
+        font-size: 2em;
+    }
+
 }
 
 

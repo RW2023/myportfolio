@@ -53,12 +53,12 @@ class Projects extends Component {
 
                             </div>
                             {/* Project 4 Start */}
-                            <a href="https://comingsoonfm.netlify.app//" target='_blank' rel="noreferrer">
-                                <div className="card_image  img-fluid"><img src='https://i.ibb.co/jJYfScD/Coming-Soon.png' alt="Coming Soon Landing Page" /></div>
+                            <a href="https://comingsoonv22023.netlify.app/" target='_blank' rel="noreferrer">
+                                <div className="card_image  img-fluid"><img src='https://i.ibb.co/tczXt2q/Coming-Soonv2.png' alt="Coming Soon Landing Page" /></div>
                             </a>
                             <div className="card_content project">
                                 <h3 className="card_title">Project 4</h3>
-                                <a href="https://github.com/RW2023/ComingSoon" target='_blank' rel="noreferrer" >
+                                <a href="https://github.com/RW2023/ComingSoonV2" target='_blank' rel="noreferrer" >
                                     <button className="btn card_btn" id='readMore'>Read More</button>
                                 </a>
                                 <h4 className="project_name">Coming Soon Landing Page</h4>
